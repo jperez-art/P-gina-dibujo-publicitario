@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>El dibujo publicitario</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="importmap">
+{ "imports": { "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js" } }
+</script>
+</head>
+
+<body>
+    <header>
+
+        <h1>el Dibujo publicitario</h1>
+        <div id="cubo"></div>
+    </header>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h1><span>La</span> <b>agencia</b><br>de <b>publicidad</b></h1>
+        <p class="lead">Recibe al anunciante y define con él cómo enfocar su producto hacia el mercado. Las agencias de
+            publicidad no venden algo ya hecho: crean un producto a pedido del cliente. Por eso primero deben conocer a
+            la organización, su idea, su mercado y su público.</p>
+    </section>
+
+    <section id="agencia">
+        <div class="bar"></div>
+        <h2>La agencia <span>por dentro</span></h2>
+        <p class="lead">Una agencia grande de servicios plenos reparte el trabajo en departamentos. El mismo esquema se
+            repite para cada cliente y campaña. Conoce la función de cada uno.</p>
+
+        <div class="servicio">
+            <h3>Servicio al cliente</h3>
+            <p>Es el contacto con el anunciante. Entiende sus objetivos, reúne información, pone en marcha al equipo y
+                coordina el proceso en los plazos.</p>
+            <img src="img/servicio.jpg">
+        </div>
+
+        <div class="creativo">
+            <h3>Creativo y de producción</h3>
+            <p>Es el núcleo de la agencia. Busca el mensaje, crea la idea, la adapta a cada medio, diseña el material
+                para aprobación y supervisa la producción.</p>
+            <img src="img/creativo.jpg">
+        </div>
+
+        <div class="investigacion">
+            <h3>Investigación</h3>
+            <p>Analiza producto, público, mercado y competencia para que la campaña no se base en la intuición.</p>
+            <img src="img/investigacion.jpg">
+        </div>
+
+        <div class="medios">
+            <h3>Medios</h3>
+            <p>Decide por qué medios llega el mensaje. Hace seguimiento de audiencias, planifica y compra espacios (TV,
+                prensa, exterior, cine, radio).</p>
+            <img src="img/medios.jpg">
+        </div>
+
+        <div class="trafico">
+            <h3>Tráfico</h3>
+            <p>Controla los procesos internos: fechas, presupuestos y abastecimiento de materiales y contactos.</p>
+            <img src="img/trafico.jpg">
+        </div>
+
+        <div class="financiero">
+            <h3>Financiero</h3>
+            <p>Gestiona las finanzas, paga a colaboradores y proveedores, y controla presupuestos y contabilidad.</p>
+            <img src="img/financiero.jpg">
+        </div>
+    </section>
+
+    <section id="boceto">
+        <div class="bar"></div>
+        <h2><span>Un dibujo</span> previo</h2>
+        <p class="lead">Aunque el anuncio final sea una valla o una fotografía, la idea se prueba y se aprueba primero
+            sobre un <i>layout</i> hecho por un dibujante publicitario. El boceto ya debe transmitir una sensación
+            concreta.</p>
+
+        <div class="pair">
+            <figure>
+                <img src="img/triunfo-b.jpg" alt="Boceto a lápiz">
+                <figcaption>1. Boceto a lápiz: la idea y la composición.</figcaption>
+            </figure>
+            <figure>
+                <img src="img/triunfo.jpg" alt="Anuncio con color">
+                <figcaption>2. Layout con color: se presenta al cliente.</figcaption>
+            </figure>
+        </div>
+    </section>
+
+
+    <section id="tipos">
+        <div class="bar"></div>
+        <h2>Las <span>emociones</span> del libro</h2>
+        <p class="lead">Estas son las cinco emociones que el libro propone para conectar un producto con el público.</p>
+
+        <div class="humor">
+            <h3>Humor</h3>
+            <p>Hace la marca más reconocible y deja buena predisposición. Hay que encontrar el tono y
+                conocer a la audiencia. Recursos: sorpresa visual, final inesperado, otra perspectiva,
+                caricatura.</p>
+        </div>
+
+        <div class="satira">
+            <h3>Sátira o parodia</h3>
+            <p>Humor con exageración extrema. La sátira ataca algo con intención burlesca; la parodia imita
+                una obra ajena para ridiculizarla.</p>
+        </div>
+
+        <div class="sofisticacion">
+            <h3>Sofisticación</h3>
+            <p>Transmite distinción y elegancia. Es típica de perfume, coches y moda, a menudo en blanco y
+                negro con el producto a color.</p>
+        </div>
+
+        <div class="lujuria">
+            <h3>Lujuria, pasión y deseo</h3>
+            <p>Lo atractivo capta la atención. Su uso depende del anunciante y del país, y puede servir en
+                campañas de prevención para jóvenes.</p>
+        </div>
+
+        <div class="triunfo">
+            <h3>Triunfo, valor y respeto</h3>
+            <p>La audiencia comparte un momento de gloria. Funciona mejor con personajes cercanos al
+                ciudadano medio; un superhéroe aleja al espectador.</p>
+        </div>
+    </section>
+
+
+    <section id="emociones">
+        <div class="bar"></div>
+        <h2>Del producto <span>al sentimiento</span></h2>
+        <p class="lead">No hay una regla fija: todo depende del producto, del público y del contexto. Mira cada imagen,
+            piensa qué emoción representa y toca la tarjeta para comprobarlo.</p>
+
+
+
+        <div class="grid" id="grid">
+
+            <div class="card">
+                <div class="card-inner">
+                    <div class="front">
+                        <img src="img/humor.jpg" alt="Anuncio de una bebida refrescante">
+                        <p>¿Qué emoción transmite?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Humor</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-inner">
+                    <div class="front">
+                        <img src="img/satira.jpg" alt="Parodia del Lazarillo de Tormes para una marca de queso">
+                        <p>¿Qué emoción transmite?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Sátira o parodia</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-inner">
+                    <div class="front">
+                        <img src="img/sofisticacion.jpg" alt="Anuncio de joyería">
+                        <p>¿Qué emoción transmite?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Sofisticación</h3>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-inner">
+                    <div class="front">
+                        <img src="img/deseo.jpg" alt="Anuncio de un perfume">
+                        <p>¿Qué emoción transmite?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Lujuria, pasión y deseo</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-inner">
+                    <div class="front">
+                        <img src="img/triunfo.jpg" alt="Anuncio de relojes con un personaje heroico">
+                        <p>¿Qué emoción transmite?</p>
+                    </div>
+                    <div class="back">
+                        <h3>Triunfo, valor y respeto</h3>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>El dibujo publicitario (Material sacado del libro)</p>
+        <p>Julián Pérez</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script type="module" src="js/cubo.js"></script>
+</body>
+
+</html>
